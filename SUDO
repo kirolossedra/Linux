@@ -20,3 +20,11 @@ gh auth login
 
 gh repo clone username/repository
 
+
+Change Directory Ownership:
+
+If the directory is owned by another user or root, you might need to change the ownership to your user. Use the chown command:
+bash
+Copy code
+sudo chown -R yourusername:yourusername /path/to/your/directory
+
