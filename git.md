@@ -18,3 +18,13 @@ Push the Changes: Push your changes to the remote repository on GitHub. Typicall
 bash
 Copy code
 git push origin main
+
+
+
+
+Force Push to Remote:
+Use the --force option (or -f for short) with git push to overwrite the remote branch:
+
+bash
+Copy code
+git push --force origin main
